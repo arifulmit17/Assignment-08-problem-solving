@@ -10,6 +10,5 @@ function vowel(str1){
 }
 const str1="programming"
 let count=0
-const vowels=['a','e','i','o','u']
 let number_of_vowel=vowel(str1)
 console.log(number_of_vowel);
