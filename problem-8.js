@@ -20,3 +20,4 @@ str1='hello world'
 str2=''
 str2=capitalise(str1)
 console.log(str2);
+// expected output: 'Hello World'

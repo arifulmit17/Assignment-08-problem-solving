@@ -11,3 +11,4 @@ const numbers=[1,2,3,4,5,6]
 let even_numbers=[]
 even_numbers=even(numbers)
 console.log(even_numbers);
+// expected output: [2,4,6]

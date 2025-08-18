@@ -11,3 +11,4 @@ const str1='hello'
 let str2=''
 str2=reverse(str1)
 console.log(str2);
+// expected output: "olleh"

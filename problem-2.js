@@ -12,3 +12,4 @@ const str1="programming"
 let count=0
 let number_of_vowel=vowel(str1)
 console.log(number_of_vowel);
+// expected output: 3

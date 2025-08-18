@@ -8,3 +8,4 @@ const number=5
 let product=1
 product = fibb(number)
 console.log(product);
+// expected output: 120

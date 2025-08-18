@@ -10,3 +10,4 @@ const numbers=[1,2,2,3,4,4]
 let unique=[]
 unique=duplicate(numbers)
 console.log(unique);
+// expected output: [1,2,3,4]

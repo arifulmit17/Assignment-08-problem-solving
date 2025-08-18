@@ -14,3 +14,4 @@ const str1='madam'
 let str2=''
 let result=palindrome(str1)
 console.log(result);
+// expected output: true
