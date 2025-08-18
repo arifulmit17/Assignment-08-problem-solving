@@ -1,18 +1,21 @@
 function count(){
     for (let i=1;i<=20;i++){
         if(i%3==0 && i%5==0){
-            console.log('pingpong');
+            result.push('pingpong');
         }
         else if(i%3==0){
-            console.log('ping');
+            result.push('ping');
         }
         else if(i%5==0){
-            console.log('pong');
+            result.push('pong');
         }else{
-            console.log(i);
+            result.push(i);
         }
         
     }
+    return result.join(',')
 }
+let result=[]
 const number=20
-count(number)
+result=count(number)
+console.log(result);
