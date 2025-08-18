@@ -7,7 +7,6 @@ function palindrome(str1){
     }else{
         return false
     }
-
 }
 const str1='madam'
 // const str1='hello'

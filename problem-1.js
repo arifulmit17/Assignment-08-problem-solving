@@ -1,8 +1,7 @@
 function reverse(str1){
     const L=str1.length
     for (let i=L;i>0 ; i--){
-        str2=str2+str1[i-1]
-        
+        str2=str2+str1[i-1] 
     }
     return str2
 }
