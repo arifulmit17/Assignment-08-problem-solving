@@ -1,5 +1,5 @@
 function duplicate(numbers){
-  for(i of numbers){
+  for(let i of numbers){
     if (!unique.includes(i)){
         unique.push(i)
     }

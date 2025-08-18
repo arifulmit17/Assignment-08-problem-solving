@@ -1,5 +1,5 @@
 function even(numbers){
-    for (i of numbers){
+    for (let i of numbers){
         if(i%2==0){
             even_numbers.push(i)
         }
